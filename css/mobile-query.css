@@ -1,0 +1,32 @@
+@media only screen and (max-width:768px) 
+{
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+    .section-1 .row .col-md-6 .panel{
+        position: initial;
+        width: initial;
+        height: inherit;
+    }
+    .kamesh h1 {
+        font-size: 1.1rem;
+        /* color: initial; */
+        margin-top: 0.5px;
+
+    }
+    .section-2 .cover{
+        background-position: -25vmin -10vmin; 
+    }
+    .numbers .rect{
+        width:10rem;
+        height: 8rem;
+         margin: 0.2rem;
+    }
+    .numbers .rect h1{
+        font-size:2rem;
+    }
+    .numbers {
+        margin-top: -10vmin;
+    }
+}
+
