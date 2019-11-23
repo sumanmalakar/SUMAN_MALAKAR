@@ -109,3 +109,11 @@
 
 }
 
+@media (max-width: 800px),(max-height: 1280px){
+    .section-1 .row .col-md-6 .panel ul {
+        font-size: 0.8em;
+        padding: 0.5rem 1rem;
+        text-align: center;
+    }
+
+}
