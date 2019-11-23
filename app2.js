@@ -57,6 +57,30 @@ sr.reveal('.panel', {
 
 });
 
+// px 
+
+window.sr = ScrollReveal();
+sr.reveal('.px', {
+    duration: 2000,
+    origin: 'top',
+    distance: '300px',
+    
+
+
+});
+
+// py
+
+window.sr = ScrollReveal();
+sr.reveal('.py', {
+    duration: 2500,
+    origin: 'top',
+    distance: '300px',
+    // viewFactor: 0.2
+
+
+});
+
 // pannel h1
 
 window.sr = ScrollReveal();
@@ -111,20 +135,20 @@ sr.reveal('.address', {
 
 // follow
 
-window.sr = ScrollReveal();
-sr.reveal('.follow', {
-    duration: 2000,
-    origin: 'right',
-    distance: '300px',
+// window.sr = ScrollReveal();
+// sr.reveal('.follow', {
+//     duration: 2000,
+//     origin: 'right',
+//     distance: '300px',
 
-});
+// });
 
 // social media
 
 window.sr = ScrollReveal();
 sr.reveal('.social-button', {
-    duration: 3000,
-    origin: 'bottom',
+    duration: 1500,
+    origin: 'top',
     distance: '200px',
 
 });
@@ -132,8 +156,11 @@ sr.reveal('.social-button', {
 // last 
 window.sr = ScrollReveal();
 sr.reveal('.last', {
-    duration: 4000,
+    duration: 2000,
     origin: 'bottom',
     distance: '200px',
 
 });
+
+
+

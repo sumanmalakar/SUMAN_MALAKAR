@@ -14,6 +14,27 @@
         margin-top: 0.5px;
 
     }
+    .section-1 .px{
+        font-size: 1.5em;
+    }
+    .section-1 .py{
+          font-size:0.8em;
+    }
+    .section-1 .v{
+        padding: 1em 2em;
+    }
+    .section-1 .row .col-md-6 .panel h1{
+        font-size: 1em;
+    }
+    .section-1 .row .col-md-6 .panel ul{
+        font-size:0.7em;
+        padding:1rem 3rem;
+        text-align: center;
+    }
+    .section-1 .row .col-md-6 .pray img{
+        width:70%;
+        margin-top:1rem;
+    }
     .section-2 .cover{
         background-position: -25vmin -10vmin; 
     }
@@ -28,5 +49,63 @@
     .numbers {
         margin-top: -10vmin;
     }
+    footer .follow .social{
+        padding:0.5rem;
+    }
+
+    footer .follow .fa-angle-up{
+        font-size:1em;
+    }
+    footer .last p{
+        font-size:1em;
+    }
+
+}
+
+@media only screen and (max-width:320px){
+
+    .section-1 .px {
+        font-size: 1.5em;
+    }
+
+    .section-1 .py {
+        font-size: 0.7em;
+    }
+
+    .section-1 .v {
+        padding: 1em 2em;
+    }
+
+    .section-1 .row .col-md-6 .panel .heading {
+        font-size: 0.9em;
+    }
+
+    .section-1 .row .col-md-6 .panel ul {
+        font-size: 0.7em;
+        padding: 0.5rem 1rem;
+        text-align: center;
+    }
+
+    .section-1 .row .col-md-6 .pray img {
+        width: 70%;
+        margin-top: 1rem;
+    }
+    .section-1 .v{
+        padding:1rem 2rem;
+    }
+    .section-1 .row .col-md-6 .panel h1{
+        font-size: 1em;
+    }
+   
+  .social .social-button a{
+      font-size:1em;
+       width: 25px;
+       height: 25px;
+      padding:1.5em;
+  }
+  footer .last p{
+      font-size: 0.9em;
+  }
+
 }
 
