@@ -10,10 +10,21 @@ sr.reveal('.navbar', {
 
 });
 
-// kamesh-img & text(typed.js)
+// heading
 
 window.sr = ScrollReveal();
-sr.reveal('.kamesh', {
+sr.reveal('.lg-heading', {
+    duration: 2000,
+    origin: 'top',
+    distance: '300px',
+    // viewFactor: 0.2
+
+
+});
+
+
+window.sr = ScrollReveal();
+sr.reveal('.type', {
     duration: 2000,
     origin: 'bottom',
     distance: '300px',
@@ -21,7 +32,6 @@ sr.reveal('.kamesh', {
 
 
 });
-
 // arrow-down
 
 window.sr = ScrollReveal();

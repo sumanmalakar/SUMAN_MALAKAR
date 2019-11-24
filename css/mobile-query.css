@@ -60,6 +60,22 @@
         font-size:1em;
     }
 
+    .pz{
+        right:20%;
+        font-size: 3rem;
+    }
+    .pz1{
+        left:-20%;
+        font-size:3rem;
+        margin-top: 1rem;
+    }
+    .lg-heading{
+        font-size: 3em;
+    }
+    .sm-heading{
+        font-size: 1em;
+    }
+
 }
 
 @media only screen and (max-width:320px){
