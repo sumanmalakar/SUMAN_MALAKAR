@@ -27,7 +27,7 @@ header a {
 }
 
 .pz1 {
-    color: #3c40c6;
+    color: #3498db;
     position: absolute;
     left: 20%;
     font-weight: bolder;
@@ -64,7 +64,8 @@ header:after {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background: rgba(68, 68, 68, 0.9);
+    /* background: rgba(68, 68, 68, 0.9); */
+     background: rgba(2, 49, 61, 0.89);
 }
 
 h1,
@@ -77,7 +78,7 @@ h2 {
     font-size: 4em;
 }
 
-.text-secondary {
+.b {
     font-family: 'Baskervville',
         serif;
 }
@@ -131,11 +132,12 @@ nav {
     height: 10vh;
     /* min-height: 7vh; */
     /* background: #5D4954; */
-      background: rgba(68, 68, 68, 0.9);
+      /* background: rgba(0, 0, 0, 0.815); */
+      /* background: rgba(221, 187, 187, 0.9); */
     /* background: black; */
     font-family: 'Poppins', sans-serif;
     /* position: absolute; */
-    /* opacity: 0.5; */
+    opacity: 0.9;
 
 }
 
