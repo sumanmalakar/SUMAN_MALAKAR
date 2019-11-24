@@ -65,7 +65,7 @@ header:after {
     height: 100%;
     z-index: -1;
     /* background: rgba(68, 68, 68, 0.9); */
-     background: rgba(2, 49, 61, 0.89);
+    background: rgba(2, 49, 61, 0.89);
 }
 
 h1,
@@ -132,8 +132,8 @@ nav {
     height: 10vh;
     /* min-height: 7vh; */
     /* background: #5D4954; */
-      /* background: rgba(0, 0, 0, 0.815); */
-      /* background: rgba(221, 187, 187, 0.9); */
+    /* background: rgba(0, 0, 0, 0.815); */
+    /* background: rgba(221, 187, 187, 0.9); */
     /* background: black; */
     font-family: 'Poppins', sans-serif;
     /* position: absolute; */
@@ -158,6 +158,8 @@ nav {
     background: #1e272e;
     border: 2px solid #1e272e;
     color: #ffffff;
+    transition: transform 0.5s ease-in;
+
 }
 
 .nav-links li {
@@ -167,7 +169,7 @@ nav {
 
 .nav-links a {
     color: rgb(226, 226, 226);
-    padding: 20px 30px;
+    padding: 15px 25px;
     text-decoration: none;
     /* letter-spacing: 3px; */
     /* font-weight: bold; */
