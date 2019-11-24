@@ -5,14 +5,23 @@
     body{
         /* overflow-x: hidden; */
     }
+
+    .logo{
+        position: absolute;
+        left:1.5rem;
+    }
+    .burger{
+        position: absolute;
+        right:4rem;
+    }
 .nav{
     opacity: 1;
 }
     .nav-links{
         position: absolute;
-        right: 0px;
+        right: 0;
         height: 92vh;
-        top: 8vh;
+        top: 9.8vh;
         /* background: #5D4954; */
         background:black;
         z-index: 1;
@@ -20,12 +29,12 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width:50%;
+        /* width:50%; */
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }
     .nav-links a{
-        font-size:1.5em;
+        font-size:1.3em;
         color: #fff;
     }
 
@@ -149,6 +158,13 @@
 
 @media only screen and (max-width:320px){
 
+    .nav-links{
+        height: 90vh;
+
+    }
+    .nav-links a{
+        font-size: 1em;
+    }
     .section-1 .px {
         font-size: 1.5em;
     }
@@ -194,6 +210,16 @@
 
 }
 
+@media (max-width: 320px),
+(max-height: 640px){
+    .nav-links{
+        height: 92vh;
+    }
+    .nav-links a{
+        font-size: 1em;
+    }
+}
+
 @media (max-width: 800px),(max-height: 1280px){
     .section-1 .row .col-md-6 .panel ul {
         font-size: 0.8em;
@@ -202,8 +228,50 @@
     }
     .nav-links {
        
-        width: 60%;
+        width: 70%;
         /* padding-top: 1rem; */
     }
+    
 
 }
+@media (max-width: 1024px),
+(max-height: 1366px){
+      .nav-links {
+
+          width: 80%;
+          /* padding-top: 1rem; */
+      }
+      .nav-links a{
+          font-size:1.2em;
+      }
+/* 
+      footer .follow{
+          height: 10vh;
+      }
+      footer .last p{
+          font-size:1em;
+          padding-top:0.5rem;
+      }
+      .social .social-button a{
+            width: 55px;
+            height: 55px;
+          font-size: 1em;
+      }
+      .social .social-button a::before{
+
+         width: 55px;
+         height: 55px;
+
+      } */
+}
+
+@media only screen and (max-width:914px){
+     .nav-links a{
+         padding: 10px 15px;
+         font-size: 1em;
+     }
+     
+
+}
+
+
