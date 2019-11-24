@@ -20,7 +20,7 @@
     .nav-links{
         position: absolute;
         right: 0;
-        height: 92vh;
+        height: 91vh;
         top: 9.8vh;
         /* background: #5D4954; */
         background:black;
@@ -28,14 +28,18 @@
         /* opacity: 0.8; */
         display: flex;
         flex-direction: column;
+          grid-column-gap: 0.5rem;
         align-items: center;
-        /* width:50%; */
+        width:50%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }
     .nav-links a{
         font-size:1.3em;
         color: #fff;
+        padding: 0;
+       
+    
     }
 
     .nav-links li{
