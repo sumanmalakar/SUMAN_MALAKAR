@@ -56,7 +56,7 @@ header a {
 }
 
 
-header:after {
+#he:after {
     content: '';
     position: absolute;
     top: 0;
