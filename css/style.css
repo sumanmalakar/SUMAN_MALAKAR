@@ -36,7 +36,7 @@ header a {
 
 }
 
-#he {
+header {
     width: 100%;
     height: 100vh;
     background: #756666;
@@ -56,7 +56,7 @@ header a {
 }
 
 
-#he:after {
+header:after {
     content: '';
     position: absolute;
     top: 0;
