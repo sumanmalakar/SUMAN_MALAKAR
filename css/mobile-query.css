@@ -175,7 +175,9 @@
     .section1 .con2 .galary .column3{
         display: none;
     }
-   
+   .carousel-item img{
+       height: 400px;
+   }
 }
 
 @media only screen and (max-width:320px){
