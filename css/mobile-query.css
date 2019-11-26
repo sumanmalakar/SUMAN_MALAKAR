@@ -10,10 +10,7 @@
         position: absolute;
         left:1.5rem;
     }
-    .burger{
-        position: absolute;
-        right:4rem;
-    }
+   
 .nav{
     opacity: 1;
 }
@@ -48,6 +45,8 @@
     }
     .burger{
         display: block;
+         position: absolute;
+         right:4rem;
      
     }
 
@@ -181,6 +180,10 @@
 }
 
 @media only screen and (max-width:320px){
+    .burger {
+        display: block;
+
+    }
 
     .nav-links{
         height: 90vh;
@@ -243,6 +246,10 @@
 
 @media (max-width: 320px),
 (max-height: 640px){
+    .burger {
+        display: block;
+
+    }
     .nav-links{
         height: 92vh;
     }
@@ -314,4 +321,19 @@
 
 }
 
+@media only screen and (max-width:500px)
+{
+    .burger {
+        display: block;
+      
 
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .burger {
+        display: block;
+
+
+    }
+}
